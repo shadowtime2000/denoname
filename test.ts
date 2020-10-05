@@ -11,7 +11,8 @@ const __filename = filename(import.meta);
 const { dirname: dir, filename: file } = generate(import.meta);
 
 function dirnameTest(d: string): void {
-  assert(d.startsWith("file:///"));
+  assert(!d.startsWith("file:///"));
+  assert(/[\\|//]/.test(d));
 }
 
 function filenameTest(f: string): void {
