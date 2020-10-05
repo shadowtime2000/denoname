@@ -1,14 +1,14 @@
 import { assert } from "https://deno.land/std/testing/asserts.ts";
 
-import dirname from "./mod/dirname.ts";
+import path from "./mod/path.ts";
 import filename from "./mod/filename.ts";
 
 import generate from "./mod.ts";
 
-const __dirname = dirname(import.meta);
+const __path = path(import.meta);
 const __filename = filename(import.meta);
 
-const { dirname: dir, filename: file } = generate(import.meta);
+const { path: pat, filename: file } = generate(import.meta);
 
 function dirnameTest(d: string): void {
   assert(!d.startsWith("file:///"));
@@ -21,9 +21,9 @@ function filenameTest(f: string): void {
 }
 
 Deno.test({
-  name: ".dirname()",
+  name: ".path()",
   fn(): void {
-    dirnameTest(__dirname);
+    dirnameTest(__path);
   },
 });
 
@@ -37,7 +37,7 @@ Deno.test({
 Deno.test({
   name: ".generate()",
   fn(): void {
-    dirnameTest(dir);
+    dirnameTest(pat);
     filenameTest(file);
   },
 });
