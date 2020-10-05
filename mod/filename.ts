@@ -1,4 +1,4 @@
-import { parse } from "../dep.ts";
+import dirname from "./dirname.ts";
 
-export default (meta: ImportMeta): string =>
-  parse(meta.url).name + parse(meta.url).ext;
+// @ts-ignore: Unreachable code error
+export default (meta: ImportMeta): string => /[^/\\]*$/.exec(dirname(meta))[0];
