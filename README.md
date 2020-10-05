@@ -1,8 +1,8 @@
-# denoname
-A dead simple way to get the Deno equivalent way of dirname and filename.
+<h1 align="center">denoname</h1>
+<p align="center">A dead simple way to get the Deno equivalent way of dirname and filename.</p>
 
 ## CDN
-You can get this package from a raw Github CDN or from [deno.land/x](https://deno.land/x/denoname@latest).
+You can get this package from a raw Github CDN or from [deno.land/x](https://deno.land/x/denoname).
 
 ### Usage
 ```typescript
