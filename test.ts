@@ -14,6 +14,6 @@ Deno.test({
   name: ".filename()",
   fn(): void {
     assert(filename(import.meta).endsWith(".ts"));
-    assert(filename(import.meta) === "test.ts")
+    assert(filename(import.meta) === "test.ts");
   },
 });
