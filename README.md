@@ -6,8 +6,8 @@ You can get this package from a raw Github CDN or from [deno.land/x](https://den
 
 ### Usage
 ```typescript
-import dirname from "https://raw.githubusercontent.com/shadowtime2000/denoname/master/mod/dirname.ts";
-import filename from "https://raw.githubusercontent.com/shadowtime2000/denoname/master/mod/filename.ts";
+import dirname from "https://deno.land/x/denoname/mod/dirname.ts";
+import filename from "https://deno.land/x/denoname/mod/filename.ts";
 
 const __dirname = dirname(import.meta);
 const __filename = filename(import.meta);
