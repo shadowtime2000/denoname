@@ -12,3 +12,11 @@ import filename from "https://deno.land/x/denoname/mod/filename.ts";
 const __dirname = dirname(import.meta);
 const __filename = filename(import.meta);
 ```
+
+You can also generate both of them in one go!
+
+```typescript
+import generate from "https://deno.land/x/denoname/mod.ts";
+
+const { dirname, filename } = generate(import.meta);
+```
