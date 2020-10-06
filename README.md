@@ -2,7 +2,7 @@
 <p align="center">A dead simple way to get the Deno equivalent way of dirname and filename.</p>
 
 ## CDN
-You can get this package from a raw Github CDN or from [deno.land/x](https://deno.land/x/denoname).
+You can get this package from [denopkg](https://denopkg.com/shadowtime2000/denoname) or from [deno.land/x](https://deno.land/x/denoname).
 
 ### Usage
 ```typescript
