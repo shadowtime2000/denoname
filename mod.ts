@@ -1,4 +1,4 @@
-import dirname from './mod/dirname.ts';
+import dirname from "./mod/dirname.ts";
 import path from "./mod/path.ts";
 import filename from "./mod/filename.ts";
 
