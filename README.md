@@ -1,6 +1,6 @@
 <img src="assets/logo.jpg" align="center" />
 <h1 align="center">denoname</h1>
-<p align="center">A dead simple way to get the Deno equivalent way of dirname and filename.</p>
+<p align="center">A dead simple way to get the Deno equivalent way of <code>dirname</code> <code>path</code> and <code>filename</code>.</p>
 
 ## CDN
 You can get this package from [denopkg](https://denopkg.com/shadowtime2000/denoname) or from [deno.land/x](https://deno.land/x/denoname).
