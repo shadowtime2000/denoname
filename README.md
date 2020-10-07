@@ -1,3 +1,4 @@
+<img src="assets/logo.jpg" align="center" />
 <h1 align="center">denoname</h1>
 <p align="center">A dead simple way to get the Deno equivalent way of dirname and filename.</p>
 
