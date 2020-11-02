@@ -1,0 +1,25 @@
+{
+  "$schema": "https://x.nest.land/eggs@0.3.1/src/schema.json",
+  "name": "denoname",
+  "entry": "./mod.ts",
+  "description": "A dead simple way to get dirname and other constants in Deno",
+  "homepage": "https://github.com/shadowtime2000/denoname",
+  "version": "0.8.2",
+  "releaseType": "patch",
+  "files": [
+    "./mod.ts",
+    "./mod/**/*.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "ignore": [
+    ".git",
+    "assets",
+    ".vscode"
+  ],
+  "checkFormat": "deno fmt --check",
+  "checkTests": "deno test --allow-env",
+  "checkInstallation": false,
+  "check": true,
+  "unlisted": false
+}

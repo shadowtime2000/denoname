@@ -7,6 +7,10 @@ Deno.test({
     const __path = path(import.meta);
     assert(!__path.startsWith("file:///"));
     assert(/[\\|//]/.test(__path));
-    assertThrows(() => path({ url: "https://foo.bar", main: false }), Error, "You should not be using this in a hosted a script!");
+    assertThrows(
+      () => path({ url: "https://foo.bar", main: false }),
+      Error,
+      "You should not be using this in a hosted a script!",
+    );
   },
 });
