@@ -7,9 +7,9 @@ You can get this package from [denopkg](https://denopkg.com/shadowtime2000/denon
 
 ### Usage
 ```typescript
-import dirname from "https://deno.land/x/denoname/mod/dirname.ts";
-import path from "https://deno.land/x/denoname/mod/path.ts";
-import filename from "https://deno.land/x/denoname/mod/filename.ts";
+import dirname from "https://x.nest.land/denoname@0.8.2/mod/dirname.ts";
+import path from "https://x.nest.land/denoname@0.8.2/mod/path.ts";
+import filename from "https://x.nest.land/denoname@0.8.2/mod/filename.ts";
 
 const __dirname = dirname(import.meta);
 const __path = path(import.meta);
@@ -19,7 +19,7 @@ const __filename = filename(import.meta);
 You can also generate both of them in one go!
 
 ```typescript
-import generate from "https://deno.land/x/denoname/mod.ts";
+import generate from "https://x.nest.land/denoname@0.8.2/mod.ts";
 
 const { dirname, path, filename } = generate(import.meta);
 ```
