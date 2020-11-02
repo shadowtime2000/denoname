@@ -4,6 +4,7 @@
 <p align="center">
     <span align="center"><a href="https://deno.land/x/denoname"><img src="https://img.shields.io/badge/deno-module-informational?logo=deno" /></a></span>
     <span align="center"><a href="https://nest.land/package/denoname"><img src="https://nest.land/badge.svg" /></a></span>
+    <span align="center"><img src="https://img.shields.io/github/license/shadowtime2000/denoname" /></span>
 </p>
 
 ## CDN
